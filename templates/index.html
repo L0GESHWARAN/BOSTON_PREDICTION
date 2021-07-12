@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="../static/css/style1.css">
+</head>
+<body>
+<h1>BOSTON HOUSING</h1>
+<img src="../static/images/orange.jpg">
+    <form action="/predict" method="POST" id="form" name="form">
+        <label for="CRIM" id="l1"> CRIM</label>
+        <input type="text" id="CRIM" name="CRIM" placeholder="CRIM">
+        <label for="ZN" id="l2">ZN</label>
+        <input type="text" id="ZN" name="ZN" placeholder="ZN">
+        <label for="INDUS" id="l3">INDUS</label>
+        <input type="text" id="INDUS" name="INDUS" placeholder="INDUS">
+        <label for="CHAS" id="l4">CHAS</label>
+        <select id="CHAS" name="CHAS">
+            <option value="Yes">1</option>
+            <option value="NO">0</option>
+
+        </select><br><br><br>
+        <label for="NOX" id="l5">NOX</label>
+        <input type="text" id="NOX" name="NOX" placeholder="NOX">
+        <label for="RM" id="l5">RM</label>
+        <input type="text" id="RM" name="RM" placeholder="RM">
+        <label for="AGE" id="l7">AGE</label>
+        <input type="text" id="AGE" name="AGE" placeholder="AGE">
+        <label for="DIS" id="l8">DIS</label>
+        <input type="text" id="DIS" name="DIS" placeholder="DIS"><br><br><br>
+        <label for="PTRATIO" id="l9">PTRATIO</label>
+        <input type="text" id="PTRATIO" name="PTRATIO" placeholder="PTRATIO">
+        <label for="B" id="l10">B</label>
+        <input type="text" id="B" name="B" placeholder="B">
+        <label for="LSTAT" id="l11">LSTAT</label>
+        <input type="text" id="LSTAT" name="LSTAT" placeholder="LSTAT">
+
+        <input type="submit" id="submit" name="submit">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+body img{
+width: 100%;
+
+}
+h1{
+color: white;
+margin-left: 38%;
+position: absolute;
+}
+
+form{
+margin-top: -50%;
+display: block;
+}
+#CRIM {
+
+}
+label{
+font-weight: bold;
+}
+input{
+width: 200px;
+height: 15px;
+}
+#l1{
+
+margin-left: 4%;
+}
+#l2{
+margin-left: 4%;
+}
+#l3{
+margin-left: 4%;
+}
+#l4{
+margin-left: 4%;
+}
+#CHAS{
+width: 250px;
+}
+#l5{
+margin-left: 4.5%;
+}
+#l7{
+margin-left: 4.5%;
+}
+#l8{
+margin-left: 5%;
+}
+#l9{
+margin-left: 2%;
+}
+#l10{
+margin-left: 5%;
+}
+#l11{
+margin-left: 4%;
+}
+#submit{
+height: 40px;
+margin-top: 10%;
+margin-left: 40%;
+}
